@@ -25,7 +25,7 @@ public class Transaction {
     public void setDescription(String description){
         this.description = description;
     }
-    // เพิ่มตัวนี้เข้าไปใน Class Transaction เพื่อให้ Print ดูง่ายๆ ครับ
+    // เพิ่มตัวนี้เข้าไปใน Class Transaction เพื่อให้ Print ดูง่ายๆ 
     @Override
     public String toString() {
         return String.format("[%s] %s: %.2f THB (%s)", type, description, amount, date);
